@@ -150,17 +150,9 @@ ul li a:hover {
   cursor: pointer;
 }
 
-.hire__me {
-  background-color: var(--primary-color);
-  color: #ffffff;
-}
-
-.hire__me:hover {
-  background-color: var(--primary-color-dark);
-}
-
 .download {
   color: var(--primary-color);
+  position: center;
 }
 
 .download:hover {
@@ -243,4 +235,9 @@ ul li a:hover {
 .carousel-container {
   max-width: 800px; /* Puedes ajustar este valor según tus necesidades */
   margin: 0 auto; /* Centrar el carousel horizontalmente */
+}
+
+.custom-card {
+  background-color: #262c38; /* Cambiar el color de fondo */
+  color: #ffffff; /* Cambiar el color del texto */
 }
