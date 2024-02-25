@@ -13,6 +13,8 @@
 
   </head>
   <body>
+
+<!-- Nombre y Nav-->
     <nav>
       <div class="nav__content">
         <div class="logo"><a href="#">JOAN GOMEZ</a></div>
@@ -31,6 +33,7 @@
       </div>
     </nav>
 
+<!-- Frase personal -->
     <section class="section">
       <div class="section__container">
         <div class="content">
@@ -43,6 +46,7 @@
             es porque no has llegado al final."
           </p>
 
+<!-- Boton iluminado repuesto -->
           <div id="sobremi" class="action__btns">
           </div>
 
@@ -52,29 +56,29 @@
         </div>
       </div>
 
+<!-- Sobre mi -->
       <div id="descripcion" class="card text-center custom-card">
         <div class="card-header">
           <h2>Sobre mi</h2>
         </div>
-
         <div class="card-body" >
           <p class="card-text">
             <p>¡Hola! Soy Joan Gómez, un apasionado ingeniero en sistemas y redes informáticas con experiencia en bases de datos y entornos dijitales,</p>
             <p>me estoy formando academicamente para poder llegar lejos con mis conocimientos y demostrar lo que puedo hacer,</p>
             <p>soy comprometido, eficaz y con muchas ganas de conocimiento.</p>
           </p>
-          
           <div class="action__btns d-flex justify-content-center" >
             <button id="downloadButton" class="download" class="action__btns">Descargar CV</button>
           </div>
-
         </div>
         <div class="card-footer text-body-secondary">
         </div>
       </div>
 
+<!-- Salto xd -->
       <p></p>
 
+<!-- Carrusel de imagenes -->
       <div id="carouselExampleCaptions" class="carousel slide carousel-container">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -115,7 +119,7 @@
         </button>
       </div>
 
-
+<!-- Footer -->
       <footer id="social-media" class="social-media" style="text-align: center;">
         <a href="https://www.facebook.com/profile.php?id=100005724698388"><i class='bx bxl-facebook'></i></a>
         <a href="https://www.linkedin.com/in/joan-steven-gomez-contreras-91523828a/"><i class='bx bxl-linkedin' ></i></a>
@@ -125,6 +129,7 @@
         <a href="https://github.com/USIS014921"><i class='bx bxl-github'></i></a>
       </footer>
 
+<!-- Traductor -->
     </script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
@@ -136,23 +141,21 @@
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </section>
 
+<!-- Descarga de CV -->
     <script>    
     function descargarArchivo() {
       var url = 'CV/CV.pdf';
-   
       var link = document.createElement('a');
       link.href = url;
       link.download = 'curriculum_vitae.pdf';
-   
       document.body.appendChild(link);
-   
       link.click();
-   
       document.body.removeChild(link);
   }
-   
   document.getElementById('downloadButton').addEventListener('click', descargarArchivo);
   </script>
+
+<!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
   </body>
