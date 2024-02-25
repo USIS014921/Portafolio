@@ -159,11 +159,11 @@ ul li a:hover {
   background-color: var(--primary-color-dark);
 }
 
-.portfolio {
+.download {
   color: var(--primary-color);
 }
 
-.portfolio:hover {
+.download:hover {
   background-color: var(--primary-color-dark);
   color: #ffffff;
 }
@@ -238,4 +238,9 @@ ul li a:hover {
   background: #0ef;
   color: #1f242d;
   box-shadow: 0 0 20px #0ef;
+}
+
+.carousel-container {
+  max-width: 800px; /* Puedes ajustar este valor según tus necesidades */
+  margin: 0 auto; /* Centrar el carousel horizontalmente */
 }
