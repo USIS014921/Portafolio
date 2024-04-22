@@ -27,6 +27,7 @@ body {
 nav {
   width: 100%;
   position: fixed;
+  border-top: 25px solid #1f242d;
   top: 0;
   left: 0;
   background-color: #1f242d;
@@ -248,7 +249,7 @@ ul li a:hover {
     width: 700px;
   }
 
-  .clients i {
+  .clients i {/* Cambiar el color de los iconos de los entornos */
     transition: color 0.3s ease-in-out;
     color: white;
   }
