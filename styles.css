@@ -274,3 +274,14 @@ ul li a:hover {
     background-color: #222;
     color: #fff;
 }
+
+#translate-text {
+  text-align: center; /* Alinea el texto al centro */
+}
+
+#google_translate_element {
+  position: fixed; /* Para fijar el traductor en una posición específica */
+  top: px; /* Ajusta la distancia desde la parte superior de la ventana del navegador */
+  right: 20px; /* Ajusta la distancia desde el borde derecho de la ventana del navegador */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
