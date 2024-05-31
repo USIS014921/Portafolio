@@ -1,6 +1,3 @@
-Here is the translated HTML code from Spanish to English:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -126,13 +123,11 @@ Here is the translated HTML code from Spanish to English:
                       <div class="col-md-2 mariadb">
                       <i class="fas fa-database fa-3x skill-icon" data-skill="MariaDB">
                       </i><p>MariaDB</p>
-
                 </div>
               </div>
             </div>
         </section>
       </body>
-
 
 <!-- Skills -->
 <div id="description" class="card text-center custom-card">
@@ -158,8 +153,6 @@ Here is the translated HTML code from Spanish to English:
         </div>
       </div>
 </div>
-
-
 
 <!-- Jump -->
       <p></p>
@@ -206,9 +199,7 @@ Here is the translated HTML code from Spanish to English:
                                 <h2 class="card-title ">The Glam App</h2>
                                 <p class="card-text my-lg-4 me-lg-4">
                                   The Glam App is an innovative platform that connects users with nearby beauty salons and barbershops through an intuitive interactive map.
-                                  Besides facilitating the location of these establishments, it offers a convenient shopping area for beauty products,
-
- providing an integral experience to meet users' needs.
+                                  Besides facilitating the location of these establishments, it offers a convenient shopping area for beauty products, providing an integral experience to meet users' needs.
                                 </p>
                             </div>
                         </div>
@@ -261,48 +252,23 @@ Here is the translated HTML code from Spanish to English:
         <a href="https://github.com/USIS014921"><i class='bx bxl-github'></i></a>
       </footer>
 
-<!-- Download CV -->
-  <script>
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-            pageLanguage: 'es',
-            includedLanguages: 'en',
-            layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
-        }, 'google_translate_element');
-    
-        // Get the current language selected by the user
-        var language = google.translate.TranslateElement.getInstance().getPageLanguage();
-    
-        // Set the "lang" class on the <html> element according to the current language
-        document.documentElement.lang = language;
-    }
-  </script>
-
-  <script>    
-    function downloadFile() {
-      var language = document.documentElement.lang;
-  
-      var url;
-      if (language === 'es') {
-          url = 'CV/CV.pdf'; // Path to the CV in Spanish
-      } else {
-          url = 'CV/CVI.pdf'; // Path to the CV in English
-      }
-  
+<!-- Descarga de CV -->
+<script>    
+  function descargarArchivo() {
+      var url = 'CV/CVI.pdf'; // Ruta al CV
       var link = document.createElement('a');
       link.href = url;
       link.download = 'Curriculum_Vitae.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-    }
-  
-    document.getElementById('downloadButton').addEventListener('click', downloadFile);
-  </script>
+  }
+
+  document.getElementById('downloadButton').addEventListener('click', descargarArchivo);
+</script>
   
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
   </body>
 </html>
-```

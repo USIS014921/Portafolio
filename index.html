@@ -44,7 +44,6 @@
             "Al final todo estará bien y si no está bien,
             es porque no has llegado al final."
           </p>
-
           
           <button id="Ingles" class="Ingles"><a href="/Portafolio/index2.html">Traducir a Ingles</a></button> 
 
@@ -276,33 +275,9 @@
       </footer>
 
 <!-- Descarga de CV -->
-  <script>
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-            pageLanguage: 'es',
-            includedLanguages: 'en',
-            layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
-        }, 'google_translate_element');
-    
-        // Obtener el idioma actual seleccionado por el usuario
-        var idioma = google.translate.TranslateElement.getInstance().getPageLanguage();
-    
-        // Establecer la clase "lang" en el elemento <html> según el idioma actual
-        document.documentElement.lang = idioma;
-    }
-    </script>
-
 <script>    
   function descargarArchivo() {
-      var idioma = document.documentElement.lang;
-  
-      var url;
-      if (idioma === 'es') {
-          url = 'CV/CV.pdf'; // Ruta al CV en español
-      } else {
-          url = 'CV/CVI.pdf'; // Ruta al CV en inglés
-      }
-  
+      var url = 'CV/CV.pdf'; // Ruta al CV
       var link = document.createElement('a');
       link.href = url;
       link.download = 'Curriculum_Vitae.pdf';
@@ -310,9 +285,9 @@
       link.click();
       document.body.removeChild(link);
   }
-  
+
   document.getElementById('downloadButton').addEventListener('click', descargarArchivo);
-  </script>
+</script>
   
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
