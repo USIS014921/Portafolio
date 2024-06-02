@@ -27,7 +27,6 @@ body {
 nav {
   width: 100%;
   position: fixed;
-  border-top: 25px solid #1f242d;
   top: 0;
   left: 0;
   background-color: #1f242d;
@@ -248,6 +247,12 @@ ul li a:hover {
     color: #ffffff; /* Cambiar el color del texto */
     width: 700px;
   }
+  #skills {
+    background-color: #262c38; /* Cambiar el color de fondo */
+    color: #ffffff; /* Cambiar el color del texto */
+    width: 700px;
+  }
+
 
   .clients i {/* Cambiar el color de los iconos de los entornos */
     transition: color 0.3s ease-in-out;
@@ -278,4 +283,43 @@ ul li a:hover {
   color: var(--primary-color);
   position: center;
   width: 200px;
+}
+
+/* General */
+.section {
+  background-color: var(--extra-light); /* Fondo consistente */
+  color: #fff;
+}
+
+/* Testimonios */
+#testimonios {
+  background-color: var(--extra-light); /* Fondo consistente con el resto de la página */
+  padding: 4rem 0; /* Espaciado superior e inferior */
+}
+
+.testimonial {
+  padding: 1.5rem;
+  background-color: #262c38; /* Color de fondo de los testimonios */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Imágenes de Testimonios */
+.testimonial-img {
+  width: 100px; /* Ajusta el tamaño según lo necesites */
+  height: 100px; /* Ajusta el tamaño según lo necesites */
+  object-fit: cover;
+  border-radius: 50%; /* Para hacer las imágenes circulares */
+  margin-bottom: 1rem;
 }
