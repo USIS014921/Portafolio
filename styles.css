@@ -323,3 +323,8 @@ ul li a:hover {
   border-radius: 50%; /* Para hacer las imágenes circulares */
   margin-bottom: 1rem;
 }
+
+.templatemo_contacttitle{
+  padding-left: 670px;
+  font-size: 30px;
+}
