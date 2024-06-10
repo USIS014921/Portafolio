@@ -170,7 +170,7 @@ ul li a:hover {
   border-radius: 100%;
 }
 
-@media (width < 750px) {
+@media (max-width: 750px) {
   nav .checkbox {
     display: block;
   }
@@ -184,6 +184,7 @@ ul li a:hover {
     background-color: var(--extra-light);
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 3rem;
   }
 
@@ -194,6 +195,11 @@ ul li a:hover {
   ul li a {
     font-size: 1.25rem;
   }
+
+  .nav__content {
+    padding: 1rem;
+  }
+
 
   .section__container {
     padding: 10rem 1rem 5rem 1rem;
@@ -325,6 +331,6 @@ ul li a:hover {
 }
 
 .templatemo_contacttitle{
-  padding-left: 670px;
+  padding-left: auto;
   font-size: 30px;
 }
