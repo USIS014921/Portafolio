@@ -345,6 +345,7 @@ ul li a:hover {
 }
 
 .templatemo_contacttitle{
-  padding-left: auto;
+  padding-left: 0; /* Elimina padding-left */
+  text-align: center; /* Centra el texto */
   font-size: 30px;
 }
