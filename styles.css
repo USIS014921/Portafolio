@@ -254,7 +254,6 @@ ul li a:hover {
     width: auto;
   }
 
-
   .clients i {/* Cambiar el color de los iconos de los entornos */
     transition: color 0.3s ease-in-out;
     color: white;
