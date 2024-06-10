@@ -34,7 +34,7 @@ nav {
 }
 
 .nav__content {
-  max-width: var(--max-width);
+  width: auto;
   margin: auto;
   padding: 1.5rem 1rem;
   display: flex;
@@ -245,12 +245,13 @@ ul li a:hover {
   #habilidades {
     background-color: #262c38; /* Cambiar el color de fondo */
     color: #ffffff; /* Cambiar el color del texto */
-    width: 700px;
+    width: auto;
+
   }
   #skills {
     background-color: #262c38; /* Cambiar el color de fondo */
     color: #ffffff; /* Cambiar el color del texto */
-    width: 700px;
+    width: auto;
   }
 
 
